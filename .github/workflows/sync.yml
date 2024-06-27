@@ -34,7 +34,17 @@ jobs:
           target_sync_branch: main
           target_repo_token: ${{ secrets.GITHUB_TOKEN }} # automatically generated, no need to set
           test_mode: false
-
+          
+      - uses: TobKed/github-forks-sync-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_repository: lobehub/lobe-chat
+          target_repository: zvrr/lobe-chat
+          upstream_branch: main
+          target_branch: main
+          force: false
+          tags: true
+          
       - name: Sync check
         if: failure()
         uses: actions-cool/issues-helper@v3
