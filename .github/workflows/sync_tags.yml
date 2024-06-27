@@ -26,6 +26,6 @@ jobs:
           
           # Update:
           git fetch upstream
-          git rebase upstream/master
+          git rebase upstream/main
           git push
           git push --tags
