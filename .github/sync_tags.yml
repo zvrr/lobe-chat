@@ -1,0 +1,31 @@
+name: Upstream tags Sync
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  sync_latest_from_upstream:
+    name: Sync latest commits from upstream repo
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.fork }}
+
+    steps:    
+      - name: sync tags
+        run: |
+          # Track:
+          git clone https://github.com/zvrr/lobe-chat.git
+          cd lobe-chat
+          git remote add upstream https://github.com/lobehub/lobe-chat.git
+          
+          # Update:
+          git fetch upstream
+          git rebase upstream/master
+          git push
+          git push --tags
