@@ -84,8 +84,7 @@
         },
         "modalTitle": "Configuração de Modelo Personalizado",
         "tokens": {
-          "title": "Número Máximo de Tokens",
-          "unlimited": "ilimitado"
+          "title": "Número Máximo de Tokens"
         },
         "vision": {
           "extra": "Esta configuração ativará apenas a configuração de upload de imagens dentro do aplicativo; a capacidade de reconhecimento depende totalmente do modelo em si. Por favor, teste a disponibilidade da capacidade de reconhecimento visual desse modelo.",
@@ -388,6 +387,11 @@
       "label": "Modelo de Reescrita de Perguntas",
       "modelDesc": "Modelo designado para otimizar as perguntas dos usuários",
       "title": "Reescrita de perguntas do banco de dados"
+    },
+    "thread": {
+      "label": "Modelo de Nomeação de Subtópicos",
+      "modelDesc": "Modelo designado para a renomeação automática de subtópicos",
+      "title": "Nomeação Automática de Subtópicos"
     },
     "title": "Assistente do Sistema",
     "topic": {

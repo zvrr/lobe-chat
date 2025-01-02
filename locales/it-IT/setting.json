@@ -84,8 +84,7 @@
         },
         "modalTitle": "Configurazione del modello personalizzato",
         "tokens": {
-          "title": "Numero massimo di token",
-          "unlimited": "illimitato"
+          "title": "Numero massimo di token"
         },
         "vision": {
           "extra": "Questa configurazione attiverà solo la capacità di caricamento delle immagini nell'app, se il riconoscimento è supportato dipende interamente dal modello stesso, ti invitiamo a testare l'usabilità del riconoscimento visivo di questo modello.",
@@ -388,6 +387,11 @@
       "label": "Modello di riscrittura delle domande",
       "modelDesc": "Modello specificato per ottimizzare le domande degli utenti",
       "title": "Riscrittura delle domande del knowledge base"
+    },
+    "thread": {
+      "label": "Modello di denominazione dei sottoargomenti",
+      "modelDesc": "Modello designato per la rinominazione automatica dei sottoargomenti",
+      "title": "Rinominazione automatica dei sottoargomenti"
     },
     "title": "Assistente di sistema",
     "topic": {

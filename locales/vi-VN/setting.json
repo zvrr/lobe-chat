@@ -84,8 +84,7 @@
         },
         "modalTitle": "Cấu hình mô hình tùy chỉnh",
         "tokens": {
-          "title": "Số lượng token tối đa",
-          "unlimited": "vô hạn"
+          "title": "Số lượng token tối đa"
         },
         "vision": {
           "extra": "Cấu hình này chỉ mở khả năng tải lên hình ảnh trong ứng dụng, việc hỗ trợ nhận diện hoàn toàn phụ thuộc vào chính mô hình, vui lòng tự kiểm tra khả năng nhận diện hình ảnh của mô hình đó.",
@@ -388,6 +387,11 @@
       "label": "Mô hình viết lại câu hỏi",
       "modelDesc": "Mô hình được chỉ định để tối ưu hóa câu hỏi của người dùng",
       "title": "Viết lại câu hỏi trong kho kiến thức"
+    },
+    "thread": {
+      "label": "Mô hình đặt tên chủ đề phụ",
+      "modelDesc": "Mô hình được chỉ định để tự động đổi tên chủ đề phụ",
+      "title": "Tự động đặt tên chủ đề phụ"
     },
     "title": "Trợ lý hệ thống",
     "topic": {

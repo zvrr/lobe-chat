@@ -84,8 +84,7 @@
         },
         "modalTitle": "Konfiguracja niestandardowego modelu",
         "tokens": {
-          "title": "Maksymalna liczba tokenów",
-          "unlimited": "Nieograniczony"
+          "title": "Maksymalna liczba tokenów"
         },
         "vision": {
           "extra": "Ta konfiguracja włączy jedynie możliwość przesyłania obrazów w aplikacji, a to, czy rozpoznawanie będzie wspierane, zależy całkowicie od samego modelu. Proszę samodzielnie przetestować dostępność rozpoznawania wizualnego w tym modelu.",
@@ -388,6 +387,11 @@
       "label": "Model przekształcania zapytań",
       "modelDesc": "Model używany do optymalizacji zapytań użytkowników",
       "title": "Przekształcenie zapytań w bazie wiedzy"
+    },
+    "thread": {
+      "label": "Model do nazywania podtematów",
+      "modelDesc": "Model używany do automatycznego zmieniania nazw podtematów",
+      "title": "Automatyczne nazywanie podtematów"
     },
     "title": "Asystent Systemowy",
     "topic": {

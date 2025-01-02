@@ -86,7 +86,6 @@ export default {
         modalTitle: '自定义模型配置',
         tokens: {
           title: '最大 token 数',
-          unlimited: '无限制',
         },
         vision: {
           extra:
@@ -390,6 +389,11 @@ export default {
       label: '提问重写模型',
       modelDesc: '指定用于优化用户提问的模型',
       title: '知识库提问重写',
+    },
+    thread: {
+      label: '子话题命名模型',
+      modelDesc: '指定用于子话题自动重命名的模型',
+      title: '子话题自动命名',
     },
     title: '系统助手',
     topic: {
